@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Toaster } from "@/components/ui/sonner"
 import "./globals.css";
+import { NavbarDemo } from "@/components/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* Wrap inside the SidebarProvider */}
+          <NavbarDemo />
         <SidebarProvider>
           <AppSidebar />
           <SidebarTrigger />

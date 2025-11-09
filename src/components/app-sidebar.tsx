@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings, CodeXml, icons } from "lucide-react"
+import { CodeXml } from "lucide-react"
 
 import {
   Sidebar,
