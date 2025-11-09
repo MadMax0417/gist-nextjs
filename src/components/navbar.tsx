@@ -20,7 +20,7 @@ export function NavbarDemo() {
       link: "/",
     },
     {
-      name: "Gists",
+      name: "Code",
       link: "/gist",
     },
   ];

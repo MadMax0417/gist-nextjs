@@ -17,7 +17,7 @@ export default function HeroSection() {
 
       {/* Main hero text */}
       <h1 className="relative z-10 mx-auto max-w-4xl text-center text-3xl font-extrabold text-slate-800 dark:text-slate-200 sm:text-5xl lg:text-6xl">
-        {"Master DSA & Coding Smarter — with Gist."
+        {"Master DSA & Coding Smarter — with Gist Labs."
           .split(" ")
           .map((word, index) => (
             <motion.span
@@ -40,7 +40,7 @@ export default function HeroSection() {
         className="mt-4 max-w-2xl text-center text-lg text-neutral-600 dark:text-neutral-400"
       >
         Learn Data Structures, Algorithms, and Code concepts visually and interactively.  
-        Gist helps you grasp complex topics in hours, not days.
+        Gist Labs helps you grasp complex topics in hours, not days.
       </motion.p>
 
       {/* Call-to-action buttons */}
@@ -54,7 +54,7 @@ export default function HeroSection() {
           onClick={() => router.push("/gist")}
           className="rounded-lg bg-blue-600 px-6 py-3 text-white font-medium transition-all duration-300 hover:bg-blue-700 hover:-translate-y-0.5"
         >
-          Explore Gist
+          Explore Gist Labs
         </button>
         <button
           onClick={() => router.push("/")}
@@ -74,7 +74,7 @@ export default function HeroSection() {
         <div className="overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
           <img
             src="/preview.png" // 🔁 replace with your own preview
-            alt="Gist software preview"
+            alt="Gist Labs software preview"
             className="aspect-[16/9] w-full object-cover"
           />
         </div>
