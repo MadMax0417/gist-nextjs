@@ -23,6 +23,10 @@ export function NavbarDemo() {
       name: "Code",
       link: "/gist",
     },
+    {
+      name: "IOT",
+      link: "/iot",
+    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
