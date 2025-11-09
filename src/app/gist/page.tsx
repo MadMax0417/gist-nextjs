@@ -1,12 +1,13 @@
 "use client";
 import { cn } from "@/lib/utils";
-import React from "react";
+import React, {useEffect} from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid"
 import { motion } from "motion/react";
 import { useRouter } from "next/navigation";
 
 export default function BentoGridThirdDemo() {
   const router = useRouter();
+
   return (
     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => (
